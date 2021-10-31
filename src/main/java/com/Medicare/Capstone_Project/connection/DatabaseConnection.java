@@ -43,7 +43,7 @@ public class DatabaseConnection {
 	public static Connection getConnection() {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			connection = DriverManager.getConnection("jdbc:mysql://localhost/onlineshoppingsystem?allowPublicKeyRetrieval=true&useSSL=false", "root", "Kedarnath@97");
+			connection = DriverManager.getConnection("jdbc:mysql://database-2.cwicuuel8jln.us-east-1.rds.amazonaws.com/capstone?allowPublicKeyRetrieval=true&useSSL=false", "root", "Kedarnath@97");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
