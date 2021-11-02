@@ -285,3 +285,4 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>
+	
