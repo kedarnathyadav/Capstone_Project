@@ -6,9 +6,9 @@
 		<li class="active menu__item menu__item--current"><a
 			class="menu__link" href="index.jsp">Home <span class="sr-only">(current)</span></a></li>
 		<li class="active menu__item menu__item"><a class="menu__link"
-			href="mens.jsp">MEDICINE </a></li>
+			href="medicines.jsp">MEDICINE </a></li>
 		<li class=" menu__item"><a class="menu__link"
-			href="electronics.jsp">HEALTHCARE PRODUCTS</a></li>
+			href="healthcarep.jsp">HEALTHCARE PRODUCTS</a></li>
 		<li class=" menu__item"><a class="menu__link" href="contact.jsp">Contact</a></li>
 		<%
 			if ((String) session.getAttribute("name") != null) {
